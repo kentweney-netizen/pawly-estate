@@ -1,0 +1,62 @@
+{
+  "name": "爪爪庄园",
+  "maxLevel": 99,
+  "xpPerLevel": 100,
+  "dailyXpCap": { "1-20": 120, "21-50": 80, "51-80": 50, "81-99": 30 },
+  "levelUpFee": [
+    { "to": 1, "pt": 0 },
+    { "from": 2, "to": 5, "pt": 50 },
+    { "from": 6, "to": 10, "pt": 80 },
+    { "from": 11, "to": 15, "pt": 100 },
+    { "from": 16, "to": 20, "pt": 120 },
+    { "from": 21, "to": 25, "pt": 150 },
+    { "from": 26, "to": 30, "pt": 180 },
+    { "from": 31, "to": 35, "pt": 220 },
+    { "from": 36, "to": 40, "pt": 260 },
+    { "from": 41, "to": 45, "pt": 300 },
+    { "from": 46, "to": 50, "pt": 360 },
+    { "from": 51, "to": 55, "pt": 420 },
+    { "from": 56, "to": 60, "pt": 500 },
+    { "from": 61, "to": 65, "pt": 580 },
+    { "from": 66, "to": 70, "pt": 660 },
+    { "from": 71, "to": 75, "pt": 750 },
+    { "from": 76, "to": 80, "pt": 850 },
+    { "from": 81, "to": 85, "pt": 920 },
+    { "from": 86, "to": 90, "pt": 960 },
+    { "from": 91, "to": 99, "pt": 1000 }
+  ],
+  "features": [
+    { "id": "farm", "name": "耕种", "lv": 1, "cost": 0, "gate": null },
+    { "id": "fish", "name": "捕鱼", "lv": 5, "cost": 100, "gate": null },
+    { "id": "hunt", "name": "小型捕猎", "lv": 10, "cost": 150, "gate": "weapon:1" },
+    { "id": "land", "name": "买地农场鸡鸭", "lv": 15, "cost": 200, "gate": null },
+    { "id": "cattle", "name": "养牛羊", "lv": 20, "cost": 250, "gate": "farmFacility:2" },
+    { "id": "tame", "name": "驯化护园", "lv": 25, "cost": 300, "gate": null },
+    { "id": "pond", "name": "开鱼塘养鱼繁殖", "lv": 30, "cost": 350, "gate": "pondFacility:5" },
+    { "id": "breed", "name": "繁殖鸡鸭牛羊", "lv": 35, "cost": 400, "gate": "farmFacility:5" },
+    { "id": "bighunt", "name": "捕猎大型野生动物", "lv": 40, "cost": 500, "gate": "weapon:5+guard:5" },
+    { "id": "expand", "name": "买地开荒", "lv": 45, "cost": 550, "gate": "land:5" },
+    { "id": "gear", "name": "升级养殖设备", "lv": 50, "cost": 600, "gate": null },
+    { "id": "trade", "name": "玩家交易农产品", "lv": 55, "cost": 650, "gate": null },
+    { "id": "landmarket", "name": "买卖土地改用途", "lv": 60, "cost": 700, "gate": "land:5" },
+    { "id": "shop", "name": "开店铺超市", "lv": 65, "cost": 800, "gate": "house:5" },
+    { "id": "petsale", "name": "店铺摆卖动物", "lv": 70, "cost": 850, "gate": "shop:5" },
+    { "id": "hybrid", "name": "杂交新物种", "lv": 75, "cost": 900, "gate": "breed" },
+    { "id": "tower", "name": "改建高楼", "lv": 90, "cost": 1000, "gate": "shop:5+land:5" },
+    { "id": "penthouse", "name": "高楼顶层", "lv": 99, "cost": 1000, "gate": "tower:5" }
+  ],
+  "facilityUpgradeCost": [0, 80, 150, 300, 500],
+  "weaponUpgradeCost": [50, 80, 150, 300, 500],
+  "guardUpgradeCost": [50, 80, 150, 300, 500],
+  "chain": {
+    "network": "Base",
+    "token": "PawlyToken",
+    "symbol": "PT",
+    "contracts": {
+      "PawlyToken": "TBD",
+      "EstateNFT": "TBD",
+      "CompanionNFT": "TBD",
+      "Market": "TBD"
+    }
+  }
+}

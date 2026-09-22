@@ -22,6 +22,7 @@
     inv:{wheat:4,cabbage:2,tomato:1,fish:0,meat:0},
     plots:[], animals:[], birds:[], motes:[], toastT:0
   };
+
   function toast(m){
     state.toastT=2.2;
     const el=document.getElementById("ui-toast");
@@ -61,13 +62,19 @@
     if(state.time<0.68)return (state.time-0.55)/0.13;
     return 1;
   }
+
   function iso(c,r){
     const tw = Math.min(state.w,state.h)*0.16;
     const th = tw*0.52;
     const ox = state.w*0.50 + state.cam.x;
     const oy = state.h*0.34 + state.cam.y;
-    return { x: ox + (c-r)*tw*0.5, y: oy + (c+r)*th*0.5, tw, th };
+    return {
+      x: ox + (c-r)*tw*0.5,
+      y: oy + (c+r)*th*0.5,
+      tw, th
+    };
   }
+
   function makeWorld(){
     state.plots=[];
     for(let r=0;r<ROWS;r++) for(let c=0;c<COLS;c++){
@@ -88,6 +95,7 @@
     state.birds=Array.from({length:5},(_,i)=>({x:Math.random(),y:0.08+i*0.03,s:0.04+i*0.01,p:i}));
     state.motes=Array.from({length:18},()=>({x:Math.random(),y:0.35+Math.random()*0.4,p:Math.random()*5,z:0.6+Math.random()}));
   }
+
   function sync(){
     document.getElementById("ui-lv").textContent=state.lv;
     document.getElementById("ui-xp").textContent=Math.min(100,state.xp)+" / 100";
@@ -108,6 +116,7 @@
     state.h=canvas.height=Math.floor(innerHeight*dpr);
     canvas.style.width=innerWidth+"px"; canvas.style.height=innerHeight+"px";
   }
+
   function hitPlot(mx,my){
     for(let i=state.plots.length-1;i>=0;i--){
       const p=state.plots[i], s=iso(p.c,p.r);
@@ -117,6 +126,7 @@
     }
     return null;
   }
+
   function clickWorld(mx,my){
     const p=hitPlot(mx,my);
     if(!p){
@@ -129,7 +139,7 @@
         if(!state.opened.hunt){ toast(tryOpen("hunt")); return; }
         state.inv.meat++; addXp(6,"捕猎"); return;
       }
-      toast("点土畱种植或收获"); return;
+      toast("点土畦种植或收获"); return;
     }
     if(p.locked){
       if(state.tool!=="expand"){ toast("荒地，选「开地」"); return; }
@@ -146,6 +156,7 @@
       p.crop=state.tool; p.stage=0; p.grow=0; toast("种下了");
     }
   }
+
   function update(dt){
     state.tick+=dt;
     state.time=(state.time+state.timeSpeed*dt/8)%1;
@@ -172,20 +183,29 @@
     if(state.toastT>0){ state.toastT-=dt; if(state.toastT<=0) document.getElementById("ui-toast").classList.remove("show"); }
     document.getElementById("ui-clock").textContent=clock();
   }
+
   function sprite(name,x,y,h,face=1){
     const im=imgs[name]; if(!im) return;
     const w=h*(im.width/im.height);
     ctx.save(); ctx.translate(x,y); ctx.scale(face,1);
     ctx.drawImage(im,-w/2,-h,w,h); ctx.restore();
   }
+
   function draw(){
     const n=night();
     const meadow=imgs["iso_meadow.jpg"];
-    ctx.drawImage(meadow, state.cam.x-state.w*0.04, state.cam.y-state.h*0.04, state.w*1.08, state.h*1.08);
-    const house=iso(5.4,-1.2); sprite("iso_house.jpg", house.x, house.y, house.tw*1.35);
-    const barn=iso(-1.6,0.2); sprite("iso_barn.jpg", barn.x, barn.y, barn.tw*1.2);
-    const mill=iso(6.6,1.0); sprite("iso_mill.jpg", mill.x, mill.y, mill.tw*1.45);
-    [...state.plots].sort((a,b)=>(a.c+a.r)-(b.c+b.r)).forEach(p=>{
+    const mw=state.w*1.08, mh=state.h*1.08;
+    ctx.drawImage(meadow, state.cam.x-state.w*0.04, state.cam.y-state.h*0.04, mw, mh);
+
+    const house=iso(5.4,-1.2);
+    sprite("iso_house.jpg", house.x, house.y, house.tw*1.35);
+    const barn=iso(-1.6,0.2);
+    sprite("iso_barn.jpg", barn.x, barn.y, barn.tw*1.2);
+    const mill=iso(6.6,1.0);
+    sprite("iso_mill.jpg", mill.x, mill.y, mill.tw*1.45);
+
+    const ordered=[...state.plots].sort((a,b)=>(a.c+a.r)-(b.c+b.r));
+    ordered.forEach(p=>{
       const s=iso(p.c,p.r);
       let img="iso_plot_empty.jpg";
       if(!p.locked && p.crop && p.stage>=1) img="iso_plot_"+p.crop+".jpg";
@@ -206,20 +226,32 @@
         ctx.beginPath(); ctx.arc(s.x,s.y+s.th*0.12,5,0,Math.PI*2); ctx.fill();
       }
     });
+
     const pond=iso(6.2,3.4);
     ctx.drawImage(imgs["iso_pond.jpg"], pond.x-pond.tw*0.7, pond.y-pond.th*0.3, pond.tw*1.4, pond.th*1.3);
+
     [...state.animals].sort((a,b)=>a.y-b.y).forEach(a=>{
-      sprite(a.img, a.x, a.y+Math.sin(a.bob)*4, state.h*a.hf, a.face);
+      const bob=Math.sin(a.bob)*4;
+      sprite(a.img, a.x, a.y+bob, state.h*a.hf, a.face);
     });
+
     state.birds.forEach(b=>{
       ctx.strokeStyle=n>0.5?"#eef":"#3a4a38"; ctx.lineWidth=2;
       const x=b.x*state.w, y=b.y*state.h, f=Math.sin(state.tick*8+b.p)*4;
       ctx.beginPath(); ctx.moveTo(x-8,y+f); ctx.lineTo(x,y); ctx.lineTo(x+8,y+f); ctx.stroke();
     });
+    state.motes.forEach(m=>{
+      ctx.globalAlpha=(n>0.3?0.8:0.28)*(0.5+0.5*Math.sin(m.p));
+      ctx.fillStyle=n>0.3?"#d8ff90":"#fff4b0";
+      ctx.beginPath(); ctx.arc(m.x*state.w,m.y*state.h,2,0,Math.PI*2); ctx.fill();
+    });
+    ctx.globalAlpha=1;
     if(n>0.04){ ctx.fillStyle=`rgba(10,16,36,${n*0.4})`; ctx.fillRect(0,0,state.w,state.h); }
   }
+
   let last=performance.now();
   function loop(now){ const dt=Math.min(0.05,(now-last)/1000); last=now; update(dt); draw(); requestAnimationFrame(loop); }
+
   function bind(){
     addEventListener("resize",resize);
     canvas.addEventListener("pointerdown",e=>{
@@ -250,6 +282,7 @@
       };
     });
   }
+
   async function start(){
     await Promise.all(FILES.map(f=>new Promise(res=>{
       const im=new Image(); im.onload=()=>{imgs[f]=im;res();}; im.onerror=()=>{console.warn(f);res();}; im.src="assets/"+f;
@@ -257,7 +290,7 @@
     makeWorld(); resize(); bind(); sync();
     document.getElementById("boot").classList.add("hidden");
     document.getElementById("game").classList.remove("hidden");
-    toast("斜俯视草地庄园 · 点土畱种植");
+    toast("斜俯视草地庄园 · 点土畦种植");
     requestAnimationFrame(loop);
   }
   document.getElementById("btn-start").onclick=start;
