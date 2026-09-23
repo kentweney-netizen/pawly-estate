@@ -1,50 +1,25 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
-  <title>爪爪庄园</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <title>PAWLY ESTATE FARM</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div id="boot">
-    <div class="boot-card">
-      <p class="boot-kicker">PAWLY ESTATE</p>
-      <h1>爪爪庄园</h1>
-      <p>点地块种植 · 收成 · 养禽畜 · 扩建 · 昼夜</p>
-      <button id="btn-start">进入庄园</button>
-    </div>
+  <div id="boot">Loading farm assets…</div>
+  <canvas id="game" width="960" height="540"></canvas>
+  <div id="hud">
+    <div id="stats"></div>
+    <div id="tools"></div>
   </div>
-  <div id="game" class="hidden">
-    <canvas id="view"></canvas>
-    <header class="hud top">
-      <div class="pill"><span class="label">等级</span><strong id="ui-lv">1</strong></div>
-      <div class="bar-wrap">
-        <div class="bar-meta"><span>升级 100 分</span><span id="ui-xp">0 / 100</span></div>
-        <div class="bar"><i id="ui-xpbar"></i></div>
-      </div>
-      <div class="pill gold"><span class="label">PawlyToken</span><strong id="ui-pt">280</strong></div>
-      <div class="pill" id="ui-clock">白天 08:00</div>
-    </header>
-    <aside class="hud left">
-      <p class="aside-title">仓库</p>
-      <div id="ui-inv"></div>
-      <p class="aside-title">功能开通</p>
-      <div id="ui-unlocks"></div>
-    </aside>
-    <div class="hud toast" id="ui-toast"></div>
-    <footer class="hud bottom">
-      <p id="ui-hint">点空地种植 · 点成熟作物收获 · 拖动画布移动视角</p>
-      <div class="actions" id="tools">
-        <button data-tool="wheat" class="on">种小麦</button>
-        <button data-tool="cabbage">种白菜</button>
-        <button data-tool="tomato">种番茄</button>
-        <button data-tool="harvest">收获</button>
-        <button data-tool="fish">鱼塘</button>
-        <button data-tool="hunt">捕猎</button>
-        <button data-tool="expand">开地</button>
-      </div>
-    </footer>
+  <div id="select" class="panel">
+    <h1>PAWLY ESTATE FARM</h1>
+    <p>Choose your farmer</p>
+    <div class="row">
+      <button data-g="boy">Boy</button>
+      <button data-g="girl">Girl</button>
+    </div>
   </div>
   <script src="game.js"></script>
 </body>
