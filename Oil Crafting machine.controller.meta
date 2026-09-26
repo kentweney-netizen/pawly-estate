@@ -1,8 +1,8 @@
 fileFormatVersion: 2
-guid: 026a87bdbfa308c489ee10e1ed0a1b7d
+guid: 06490474938c17f4a82285cf31bbfc06
 NativeFormatImporter:
   externalObjects: {}
-  mainObjectFileID: 7400000
+  mainObjectFileID: 9100000
   userData: 
   assetBundleName: 
   assetBundleVariant: 
@@ -11,5 +11,5 @@ AssetOrigin:
   productId: 388798
   packageName: Idle Farming Game Kit
   packageVersion: 1.0.0.1
-  assetPath: Assets/Gamelauncher Studio/Environment/Animated Crafting Machine/Animated Craft/Oil Crafting machine/Idle.anim
+  assetPath: Assets/Gamelauncher Studio/Environment/Animated Crafting Machine/Animated Craft/Oil Crafting machine/Oil Crafting machine.controller
   uploadId: 941018
