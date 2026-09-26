@@ -1,8 +1,8 @@
 fileFormatVersion: 2
-guid: 6c426804c1e8bd24982c9bb8691a2f25
+guid: feef11d7357caea40bb6e6962e52955f
 NativeFormatImporter:
   externalObjects: {}
-  mainObjectFileID: 7400000
+  mainObjectFileID: 9100000
   userData: 
   assetBundleName: 
   assetBundleVariant: 
@@ -11,5 +11,5 @@ AssetOrigin:
   productId: 388798
   packageName: Idle Farming Game Kit
   packageVersion: 1.0.0.1
-  assetPath: Assets/Gamelauncher Studio/Environment/Animated Crafting Machine/Animated Craft/Wine Crafting MAchine/Idle.anim
+  assetPath: Assets/Gamelauncher Studio/Environment/Animated Crafting Machine/Animated Craft/Wine Crafting MAchine/Wine Crafting MAchine.controller
   uploadId: 941018
