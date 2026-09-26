@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: ef21d076f72db5d40821b3fd1f2d1834
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388798
+  packageName: Idle Farming Game Kit
+  packageVersion: 1.0.0.1
+  assetPath: Assets/Gamelauncher Studio/Characters/Pig/Atlas/Pig.json
+  uploadId: 941018

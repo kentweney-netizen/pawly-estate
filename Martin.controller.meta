@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a97cb029cbaf4284f9d738b677cb2ea6
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388798
+  packageName: Idle Farming Game Kit
+  packageVersion: 1.0.0.1
+  assetPath: Assets/Gamelauncher Studio/Characters/Martin/Animation/Martin.controller
+  uploadId: 941018

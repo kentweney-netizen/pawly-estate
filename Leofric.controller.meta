@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 9f753716d5ecce248ad1cc5b7304cec9
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388798
+  packageName: Idle Farming Game Kit
+  packageVersion: 1.0.0.1
+  assetPath: Assets/Gamelauncher Studio/Characters/Leofric/Animation/Leofric.controller
+  uploadId: 941018

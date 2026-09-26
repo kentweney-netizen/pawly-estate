@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b99f297ed29cf5d45803d545b739399f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388798
+  packageName: Idle Farming Game Kit
+  packageVersion: 1.0.0.1
+  assetPath: Assets/Gamelauncher Studio/Characters/Pig/Animation/Pig_Controller.controller
+  uploadId: 941018

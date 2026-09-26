@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f0655880873ec164fbccb05283583074
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388798
+  packageName: Idle Farming Game Kit
+  packageVersion: 1.0.0.1
+  assetPath: Assets/Gamelauncher Studio/Characters/Noah Warrior/Animation/Noah.controller
+  uploadId: 941018
