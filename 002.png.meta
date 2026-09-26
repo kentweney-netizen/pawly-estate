@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 43a1e720367d4044a895cadb6e0a08fa
+guid: 0ddaecf3079d71c4b9beb796a76c1ede
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -130,5 +130,5 @@ AssetOrigin:
   productId: 388798
   packageName: Idle Farming Game Kit
   packageVersion: 1.0.0.1
-  assetPath: Assets/Gamelauncher Studio/Environment/Animated Crafting Machine/Animated Craft/Brick Crafting Machine/002.png
+  assetPath: Assets/Gamelauncher Studio/Environment/Animated Crafting Machine/Animated Craft/Iron Crafting Machine/002.png
   uploadId: 941018
