@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8eb0d46bb80ccde4783c7a7a7510b0e6
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388798
+  packageName: Idle Farming Game Kit
+  packageVersion: 1.0.0.1
+  assetPath: Assets/Gamelauncher Studio/Environment/Animated Crafting Machine/Animated Craft/Brick Crafting Machine/Brick Crafting Machine.controller
+  uploadId: 941018
