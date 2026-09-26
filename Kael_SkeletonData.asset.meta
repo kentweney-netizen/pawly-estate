@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: af67dc3d9bc598147921695507c8aef1
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388798
+  packageName: Idle Farming Game Kit
+  packageVersion: 1.0.0.1
+  assetPath: Assets/Gamelauncher Studio/Characters/Kael/Atlas/Kael_SkeletonData.asset
+  uploadId: 941018

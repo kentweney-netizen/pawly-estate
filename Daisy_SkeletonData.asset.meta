@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 66c73e81a24549f419dffba40988f6ce
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388798
+  packageName: Idle Farming Game Kit
+  packageVersion: 1.0.0.1
+  assetPath: Assets/Gamelauncher Studio/Characters/Daisy/Atlas/Daisy_SkeletonData.asset
+  uploadId: 941018

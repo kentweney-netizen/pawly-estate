@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c22d5fdc393e13344baee7392b880f10
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388798
+  packageName: Idle Farming Game Kit
+  packageVersion: 1.0.0.1
+  assetPath: Assets/Gamelauncher Studio/Characters/Daisy/Animation/Daisy.controller
+  uploadId: 941018

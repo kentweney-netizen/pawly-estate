@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0635ce984933dde4592a94f91076f199
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388798
+  packageName: Idle Farming Game Kit
+  packageVersion: 1.0.0.1
+  assetPath: Assets/Gamelauncher Studio/Characters/Goat/Animation/Goat_Controller.controller
+  uploadId: 941018

@@ -1,0 +1,38 @@
+Goat.png
+size:2048,2048
+filter:Linear,Linear
+Back Front Leg
+bounds:2,2,223,387
+rotate:90
+Blink
+bounds:2,227,471,645
+offsets:144,172,856,986
+Body
+bounds:2,1521,755,469
+Eat_1
+bounds:2,874,472,645
+offsets:144,172,856,986
+Eat_2
+bounds:759,1519,471,645
+offsets:144,172,856,986
+rotate:90
+Eat_3
+bounds:1406,1345,471,645
+offsets:144,172,856,986
+Front back Leg
+bounds:1123,1160,193,357
+Head
+bounds:476,1046,471,645
+offsets:144,172,856,986
+rotate:90
+Left Ear
+bounds:475,649,218,209
+Right Ear
+bounds:475,425,222,193
+rotate:90
+Tail
+bounds:834,875,169,215
+rotate:90
+front Up Leg
+bounds:476,860,184,356
+rotate:90

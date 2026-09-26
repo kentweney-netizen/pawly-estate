@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0b77da338f1e11b49bdc91908adb3e33
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388798
+  packageName: Idle Farming Game Kit
+  packageVersion: 1.0.0.1
+  assetPath: Assets/Gamelauncher Studio/Characters/Goat/Atlas/Goat_SkeletonData.asset
+  uploadId: 941018
