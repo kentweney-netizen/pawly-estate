@@ -1,0 +1,34 @@
+Sheep.png
+size:1024,512
+filter:Linear,Linear
+Back Leg
+bounds:651,116,81,123
+offsets:14,8,96,137
+Blink
+bounds:2,2,216,258
+rotate:90
+Body
+bounds:2,220,351,279
+offsets:23,1,419,310
+Eat_1
+bounds:355,241,216,258
+Eat_2
+bounds:573,241,216,258
+Front Foot
+bounds:813,133,77,106
+offsets:0,6,77,148
+Front Foot Back
+bounds:734,127,77,112
+offsets:0,0,77,125
+Head
+bounds:791,241,216,258
+Left_Ear
+bounds:441,62,208,177
+offsets:28,5,236,193
+Right_Ear
+bounds:262,9,209,177
+offsets:3,3,212,189
+rotate:90
+Tail
+bounds:892,149,86,90
+offsets:0,2,89,115

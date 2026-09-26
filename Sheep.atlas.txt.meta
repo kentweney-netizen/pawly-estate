@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7c1d4bfd5a35ad9408cc99a37a338c3a
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388798
+  packageName: Idle Farming Game Kit
+  packageVersion: 1.0.0.1
+  assetPath: Assets/Gamelauncher Studio/Characters/Sheep/Atlas/Sheep.atlas.txt
+  uploadId: 941018

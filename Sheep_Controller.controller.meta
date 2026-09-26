@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d4a5bc9c7f623664b949dfa4ca71663c
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388798
+  packageName: Idle Farming Game Kit
+  packageVersion: 1.0.0.1
+  assetPath: Assets/Gamelauncher Studio/Characters/Sheep/Animation/Sheep_Controller.controller
+  uploadId: 941018

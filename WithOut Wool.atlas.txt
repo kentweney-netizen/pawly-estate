@@ -1,0 +1,42 @@
+WithOut Wool.png
+size:1024,512
+filter:Linear,Linear
+pma:true
+Back Leg
+bounds:656,2,67,129
+offsets:20,8,96,137
+rotate:90
+Blink
+bounds:2,16,216,258
+Body
+bounds:2,276,331,228
+offsets:31,24,419,310
+Eat_1
+bounds:335,288,216,258
+rotate:90
+Eat_2
+bounds:595,288,216,258
+rotate:90
+Eat_3
+bounds:220,16,216,258
+Front Foot
+bounds:656,71,80,136
+offsets:0,0,80,148
+rotate:90
+Front Foot Back
+bounds:855,242,74,125
+offsets:2,0,77,125
+rotate:90
+Head
+bounds:438,28,216,258
+Left_Ear
+bounds:855,318,186,133
+offsets:39,11,236,193
+rotate:90
+Right_Ear
+bounds:656,153,186,133
+offsets:11,9,212,189
+Tail
+bounds:844,154,86,90
+offsets:0,2,89,115
+rotate:90

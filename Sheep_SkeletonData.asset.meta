@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1c1cde9b84a62b745a8043d9cb478099
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388798
+  packageName: Idle Farming Game Kit
+  packageVersion: 1.0.0.1
+  assetPath: Assets/Gamelauncher Studio/Characters/Sheep/Atlas/Sheep_SkeletonData.asset
+  uploadId: 941018
