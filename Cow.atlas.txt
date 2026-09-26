@@ -1,0 +1,39 @@
+Cow.png
+size:2048,512
+filter:Linear,Linear
+Back Leg
+bounds:262,81,85,137
+offsets:0,0,96,137
+Blink
+bounds:2,2,216,258
+rotate:90
+Body
+bounds:2,220,368,268
+offsets:17,0,419,310
+Eat_1
+bounds:372,230,216,258
+Eat_2
+bounds:590,230,216,258
+Eat_3
+bounds:808,230,216,258
+Front Foot
+bounds:1426,250,77,127
+offsets:0,2,77,148
+Front Foot Back
+bounds:1642,423,65,124
+offsets:6,0,77,125
+rotate:90
+Head
+bounds:1026,230,216,258
+Left_Ear
+bounds:1244,363,180,125
+offsets:34,34,236,193
+Right_Ear
+bounds:1244,236,180,125
+offsets:21,32,212,189
+Snooz
+bounds:1426,379,100,109
+Tail
+bounds:1528,405,83,112
+offsets:1,3,89,115
+rotate:90

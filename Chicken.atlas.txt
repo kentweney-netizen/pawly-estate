@@ -1,0 +1,30 @@
+Chicken.png
+size:2048,2048
+filter:Linear,Linear
+Back Leg
+bounds:1487,1772,174,217
+Blink
+bounds:551,1373,466,616
+offsets:123,104,786,807
+Body
+bounds:2,731,640,468
+offsets:0,0,640,469
+rotate:90
+Eat_1
+bounds:2,1373,547,616
+offsets:123,104,786,807
+Eat_2
+bounds:2,113,466,616
+offsets:123,104,786,807
+Eat_3
+bounds:472,755,466,616
+offsets:123,104,786,807
+Front Leg
+bounds:940,835,174,217
+Snooz
+bounds:2,2,100,109
+Tail
+bounds:940,1054,212,317
+head
+bounds:1019,1373,466,616
+offsets:123,104,786,807

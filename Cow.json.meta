@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 10512b27d36440743b77a61a0c805d85
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388798
+  packageName: Idle Farming Game Kit
+  packageVersion: 1.0.0.1
+  assetPath: Assets/Gamelauncher Studio/Characters/Cow/Atlas/Cow.json
+  uploadId: 941018

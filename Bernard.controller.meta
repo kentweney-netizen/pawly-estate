@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7c042be59033a7b4dac841c1982003b8
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388798
+  packageName: Idle Farming Game Kit
+  packageVersion: 1.0.0.1
+  assetPath: Assets/Gamelauncher Studio/Characters/Travis/Animation/Bernard.controller
+  uploadId: 941018

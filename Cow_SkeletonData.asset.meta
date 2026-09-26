@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 72da0af15e056354fa8a1127f075d796
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388798
+  packageName: Idle Farming Game Kit
+  packageVersion: 1.0.0.1
+  assetPath: Assets/Gamelauncher Studio/Characters/Cow/Atlas/Cow_SkeletonData.asset
+  uploadId: 941018

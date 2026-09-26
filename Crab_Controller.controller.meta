@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 748a510f4139db24b8c399ad8a3b38bf
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 388798
+  packageName: Idle Farming Game Kit
+  packageVersion: 1.0.0.1
+  assetPath: Assets/Gamelauncher Studio/Characters/Harmit Crab/Animation/Crab_Controller.controller
+  uploadId: 941018
