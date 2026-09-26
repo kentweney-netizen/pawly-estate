@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7f65cbbddc6a7f34bacf1c38f0c90346
+guid: c48d5e7bf0d902549bea1c242d183151
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -130,5 +130,5 @@ AssetOrigin:
   productId: 388798
   packageName: Idle Farming Game Kit
   packageVersion: 1.0.0.1
-  assetPath: Assets/Gamelauncher Studio/Environment/Generation Plant/Tomato Plant/Tomato.png
+  assetPath: Assets/Gamelauncher Studio/Environment/Generation Plant/SugarCane Plant/SUgarCane_Seed_01.png
   uploadId: 941018

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7f65cbbddc6a7f34bacf1c38f0c90346
+guid: 1c1df27bff71bc3469acabdabf66a548
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -130,5 +130,5 @@ AssetOrigin:
   productId: 388798
   packageName: Idle Farming Game Kit
   packageVersion: 1.0.0.1
-  assetPath: Assets/Gamelauncher Studio/Environment/Generation Plant/Tomato Plant/Tomato.png
+  assetPath: Assets/Gamelauncher Studio/Environment/Generation Plant/Wheat Plant/Wheat_Seed.png
   uploadId: 941018

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7f65cbbddc6a7f34bacf1c38f0c90346
+guid: 50f82fc8d6c84d34d9964d37acf5b74a
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -130,5 +130,5 @@ AssetOrigin:
   productId: 388798
   packageName: Idle Farming Game Kit
   packageVersion: 1.0.0.1
-  assetPath: Assets/Gamelauncher Studio/Environment/Generation Plant/Tomato Plant/Tomato.png
+  assetPath: Assets/Gamelauncher Studio/Environment/Generation Plant/Potato Plant/Potato_04.png
   uploadId: 941018
