@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c56b6865d71e80242bde6ce50c990b63
+guid: 4fbf51f4d0f74b34dab828fb86dd5bcc
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -130,5 +130,5 @@ AssetOrigin:
   productId: 388798
   packageName: Idle Farming Game Kit
   packageVersion: 1.0.0.1
-  assetPath: Assets/Gamelauncher Studio/Environment/Ui/Cash Counter.png
+  assetPath: Assets/Gamelauncher Studio/Environment/Ui/Expression Board.png
   uploadId: 941018

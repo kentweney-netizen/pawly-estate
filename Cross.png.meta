@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 5bb6fe68a61dff94c9b8050a8a692be7
+guid: e3af30384fc257c45be518d765ab230e
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -130,5 +130,5 @@ AssetOrigin:
   productId: 388798
   packageName: Idle Farming Game Kit
   packageVersion: 1.0.0.1
-  assetPath: Assets/Gamelauncher Studio/Environment/Ui/Simple Ui/Cross.png
+  assetPath: Assets/Gamelauncher Studio/Environment/Ui/Cross.png
   uploadId: 941018

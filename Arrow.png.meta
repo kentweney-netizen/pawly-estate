@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e5410be90f528834884d0f85bf2a0695
+guid: 426ca332b0b75014e8d45d6439943828
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -130,5 +130,5 @@ AssetOrigin:
   productId: 388798
   packageName: Idle Farming Game Kit
   packageVersion: 1.0.0.1
-  assetPath: Assets/Gamelauncher Studio/Environment/Ui/Simple Ui/Arrow.png
+  assetPath: Assets/Gamelauncher Studio/Environment/Ui/Arrow.png
   uploadId: 941018

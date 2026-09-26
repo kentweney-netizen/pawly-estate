@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d70ca901f30463744b5c4e7204471869
+guid: 2632d7a927c2cd049ae3bf84e7ea91b1
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -130,5 +130,5 @@ AssetOrigin:
   productId: 388798
   packageName: Idle Farming Game Kit
   packageVersion: 1.0.0.1
-  assetPath: Assets/Gamelauncher Studio/Environment/Ui/Simple Ui/Need Panel.png
+  assetPath: Assets/Gamelauncher Studio/Environment/Ui/Need Panel.png
   uploadId: 941018

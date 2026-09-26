@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9f20aaff64dd5b74d9465efb81aee795
+guid: 2bd055abde440f64ea6c50eb6a414fd6
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -130,5 +130,5 @@ AssetOrigin:
   productId: 388798
   packageName: Idle Farming Game Kit
   packageVersion: 1.0.0.1
-  assetPath: Assets/Gamelauncher Studio/Environment/Ui/Simple Ui/Speech.png
+  assetPath: Assets/Gamelauncher Studio/Environment/Ui/Speech.png
   uploadId: 941018

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ec2a26949b74f6f489ad71f81177316b
+guid: c6264ff9e569e55439a5df568f8daf27
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -130,5 +130,5 @@ AssetOrigin:
   productId: 388798
   packageName: Idle Farming Game Kit
   packageVersion: 1.0.0.1
-  assetPath: Assets/Gamelauncher Studio/Environment/Ui/Simple Ui/Player Panel.png
+  assetPath: Assets/Gamelauncher Studio/Environment/Ui/Player Panel.png
   uploadId: 941018

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9b398103490c9114aaf54c8541340cb8
+guid: e86a4db65e4142844b1708df08442f27
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -130,5 +130,5 @@ AssetOrigin:
   productId: 388798
   packageName: Idle Farming Game Kit
   packageVersion: 1.0.0.1
-  assetPath: Assets/Gamelauncher Studio/Environment/Items/Egg.png
+  assetPath: Assets/Gamelauncher Studio/Environment/Ui/Egg.png
   uploadId: 941018
