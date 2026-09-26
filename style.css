@@ -1,14 +1,16 @@
 *{box-sizing:border-box;margin:0;padding:0}
-html,body{height:100%;background:#1a1d16;color:#f4f0e0;font-family:sans-serif;overflow:hidden}
-#game{display:block;width:100vw;height:100vh;image-rendering:pixelated;background:#6db23a}
-#boot{display:none}
-#hud{position:fixed;left:12px;top:12px;right:12px;pointer-events:none;z-index:3}
-#stats{background:rgba(20,24,16,.72);padding:8px 12px;border-radius:8px;display:inline-block;font-size:14px;line-height:1.4}
-#tools{position:fixed;left:50%;bottom:14px;transform:translateX(-50%);display:flex;gap:6px;pointer-events:auto}
-#tools button{padding:8px 10px;border:0;border-radius:8px;background:#ead9a0;color:#2a2416;font-weight:700;cursor:pointer}
+html,body{height:100%;background:#14305a;color:#f4f0e0;font-family:sans-serif;overflow:hidden;touch-action:none}
+#world,#actors{position:fixed;inset:0;width:100vw;height:100vh;display:block}
+#world{z-index:1;background:#1b6b9a}
+#actors{z-index:2;pointer-events:none}
+#boot{position:fixed;inset:0;z-index:8;display:flex;align-items:center;justify-content:center;background:#163018;color:#fff}
+#hud{position:fixed;left:10px;top:10px;z-index:4;pointer-events:none}
+#stats{background:rgba(16,20,12,.78);padding:8px 12px;border-radius:8px;font-size:13px;line-height:1.45;max-width:92vw}
+#tools{position:fixed;left:50%;bottom:12px;transform:translateX(-50%);z-index:5;display:flex;gap:6px;flex-wrap:wrap;justify-content:center;max-width:96vw}
+#tools button{padding:8px 10px;border:0;border-radius:8px;background:#ead9a0;color:#2a2416;font-weight:700;cursor:pointer;font-size:13px}
 #tools button.on{background:#f3c44a}
-.panel{position:fixed;inset:0;background:linear-gradient(#8ec8f0,#7ed321);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;z-index:6;text-align:center}
-.panel h1{font-size:42px;color:#fff;text-shadow:2px 3px 0 #3a5a18}
+.panel{position:fixed;inset:0;background:linear-gradient(#6eb7e8,#6db23a);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;z-index:7;text-align:center;padding:20px}
+.panel h1{font-size:34px;color:#fff;text-shadow:2px 3px 0 #2f4d14}
 .row{display:flex;gap:12px}
 .row button{padding:14px 22px;font-size:18px;border:0;border-radius:10px;background:#f3c44a;cursor:pointer}
-.panel small{opacity:.75}
+.panel small{opacity:.8}

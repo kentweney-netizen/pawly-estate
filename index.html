@@ -2,25 +2,29 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
   <title>PAWLY ESTATE FARM</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div id="boot">Loading farm assets…</div>
-  <canvas id="game" width="960" height="540"></canvas>
+  <div id="boot">Loading PAWLY ESTATE FARM…</div>
+  <canvas id="world"></canvas>
+  <canvas id="actors"></canvas>
   <div id="hud">
     <div id="stats"></div>
-    <div id="tools"></div>
   </div>
+  <div id="tools"></div>
   <div id="select" class="panel">
     <h1>PAWLY ESTATE FARM</h1>
-    <p>Choose your farmer</p>
+    <p>Idle farm · walk · plant · raise animals · chop · fish</p>
+    <p>Choose farmer</p>
     <div class="row">
       <button data-g="boy">Boy</button>
       <button data-g="girl">Girl</button>
     </div>
+    <small>WASD or tap to walk</small>
   </div>
+  <script src="https://unpkg.com/@esotericsoftware/spine-webgl@4.2.43/dist/iife/spine-webgl.js"></script>
   <script src="game.js"></script>
 </body>
 </html>
